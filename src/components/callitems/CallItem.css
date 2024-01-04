@@ -1,0 +1,40 @@
+.call_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    border: 1px rgb(189, 189, 189) solid;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 10px;
+    height: fit-content;
+    color: rgb(74, 73, 73);
+  }
+  
+  .via {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(91, 91, 91);
+  }
+  .callee {
+    font-size: 12px;
+    color: gray;
+  }
+  .callee > span {
+    font-weight: 600;
+    color: gray;
+  }
+  .caller_data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .call_icon {
+    font-size: 20px;
+  }
+  .call_time > p{
+    color: gray;
+    font-size: 12px;
+  }
+  

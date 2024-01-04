@@ -1,0 +1,64 @@
+.inbox_container{
+    padding: 0px 10px;
+  }
+  .archive_container {
+    color: rgb(91, 91, 91);
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid rgb(189, 189, 189);
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0px 10px 10px 10px;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .archive {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .archive:hover {
+    color: red;
+  }
+  .unarchive {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .unarchive:hover {
+    color: green;
+  }
+  .dotted_line {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  hr {
+    border: none;
+    border-top: 2px dotted gray;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: auto;
+  }
+  .display_message{
+    font-size: larger;
+    color: rgb(142, 141, 141);
+    margin: auto;
+    width: 100%;
+  }
+  .date_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 11px;
+    color: gray;
+  }
